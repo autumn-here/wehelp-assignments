@@ -34,6 +34,10 @@ nav ul li + li {
   margin: 0 0 0 15px;
 }
 
+nav li:hover {
+  color: #2471a3;
+}
+
 @media (max-width: 600px) {
   nav {
     position: relative;
@@ -62,10 +66,6 @@ nav ul li + li {
 
   nav ul li + li {
     margin: 15px 0 0 0;
-  }
-
-  nav li:hover {
-    color: #2471a3;
   }
 }
 
