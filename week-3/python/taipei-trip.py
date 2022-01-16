@@ -16,6 +16,6 @@ with open("data.csv", "w", encoding="utf-8") as file:
     info.append(attraction["address"][5:8]) #行政區
     info.append(attraction["longitude"])  #經度
     info.append(attraction["latitude"])   #緯度
-    index = attraction["file"].find(".jpg")  #(定位第一個.jpg的index)
+    index = (attraction["file"].lower()).find(".jpg")  #(定位第一個.jpg的index)
     info.append(attraction["file"][0:(index+4)])  #封面圖片網址
     file.write((",").join(info)+"\n")
