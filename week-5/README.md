@@ -3,9 +3,11 @@ password 欄位必須是 test。接著繼續新增至少 4 筆隨意的資料。
 ● 使用 SELECT 指令取得所有在 member 資料表中的會員資料。
 
 INSERT INTO `member`(`name`,`username`, `password`, `follower_count`) values('new', 'new', 'new', 100);
+
 ![image](https://user-images.githubusercontent.com/95583422/152654387-a06de367-5e34-4f79-b922-b261e336d01c.png)
 
 SELECT * FROM `member`;
+
 ![image](https://user-images.githubusercontent.com/95583422/152654397-e755124f-edd0-4269-b062-495fb6bbd6fe.png)
 
 
